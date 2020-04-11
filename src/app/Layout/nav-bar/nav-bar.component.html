@@ -1,0 +1,34 @@
+<header>
+  <div class="row">
+    <div class="top-bar">
+      <a class="menu-toggle" href="#"><span>Menu</span></a>
+
+      <div class="logo">
+        <a routerLink="/">Amr</a>
+      </div>
+
+      <nav id="main-nav-wrap">
+        <ul class="main-navigation">
+          <li routerLinkActive="current" [routerLinkActiveOptions]="{exact: true}">
+            <a routerLink="/" title="">Home</a>
+          </li>
+          <li routerLinkActive="current" [routerLinkActiveOptions]="{exact: true}">
+            <a routerLink="/about" title="">About</a>
+          </li>
+          <li routerLinkActive="current" [routerLinkActiveOptions]="{exact: true}">
+            <a routerLink="/resume" title="">Resume</a>
+          </li>
+          <li routerLinkActive="current" [routerLinkActiveOptions]="{exact: true}">
+            <a routerLink="/projects" title="">Projects</a>
+          </li>
+          <li routerLinkActive="current" [routerLinkActiveOptions]="{exact: true}">
+            <a routerLink="/services" title="">Services</a>
+          </li>
+          <li routerLinkActive="current" [routerLinkActiveOptions]="{exact: true}">
+            <a routerLink="/contact" title="">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </div> <!-- /top-bar -->
+  </div> <!-- /row -->
+</header>
