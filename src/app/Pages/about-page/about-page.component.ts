@@ -25,12 +25,11 @@ export class AboutPageComponent implements OnInit {
     });
     const type = new Typed('#typed_3', {
       strings: [
-        'Communication',
-        'TEAM WORK',
-        'SELF-MOTIVATED',
-        'SERIOUS TO LEARN',
-        'STABLE UNDER PRESSURES',
-        'CREATIVITY',
+        'Sociable',
+        'Creative & Cooperative In Team Work',
+        'Self-Motivated',
+        'Serious To Learn ',
+        'Stable Under Work Pressures',
       ],
       typeSpeed: 50,
       backSpeed: 50,
