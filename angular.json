@@ -128,5 +128,8 @@
       }
     }
   },
-  "defaultProject": "AmrMossadCV-V3"
+  "defaultProject": "AmrMossadCV-V3",
+  "cli": {
+    "analytics": "39c96c59-ffc3-49ec-8c6c-99eb73d1f26d"
+  }
 }
